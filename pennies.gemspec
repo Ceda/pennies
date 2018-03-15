@@ -47,8 +47,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, ["~> 2.1.0"])
     end
   else
-    s.add_dependency(%q<activesupport>, ["~> 5.1.0"])
-    s.add_dependency(%q<activemodel>, ["~> 5.1.0"])
+    s.add_dependency(%q<activesupport>, ["~> 5.x"])
+    s.add_dependency(%q<activemodel>, ["~> 5.x"])
     s.add_dependency(%q<mongoid>, [">= 0"])
     s.add_dependency(%q<bson>, [">= 0"])
     s.add_dependency(%q<rspec>, ["~> 2.1.0"])
